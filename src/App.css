@@ -7,6 +7,55 @@
   pointer-events: none;
 }
 
+.black-nav {
+  display: flex;
+  background: black;
+  color: white;
+  width: 100%;
+  height: 100px;
+  padding-left: 20px;
+}
+
+.desc{
+  width: 100px;
+  height: 50px;
+  border-style: none;
+  border-radius: 30px;
+}
+
+.edit {
+  width: 100px;
+  height: 50px;
+  border-style: none;
+  border-radius: 30px;
+}
+
+.black-nav h4{
+  color: white;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.list {
+  padding-left: 20px;
+  text-align: left;
+  border-bottom: 1px solid grey;
+}
+
+.delete {
+  position: absolute;
+  display: inline-block;
+  right: 10px;
+}
+
+
+.modal {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #eee;
+  text-align: left;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
